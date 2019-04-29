@@ -1,0 +1,34 @@
+{
+    "name": "rhilip/php-bencode-benchmark",
+    "description": "The Benchmark script of php bencode library",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rhilip",
+            "email": "rhilipruan@gmail.com"
+        }
+    ],
+    "require": {
+        "sandfoxme/bencode": "^1.3",
+        "rych/bencode": "^1.0",
+        "dsmithhayes/bencode": "^0.1.3",
+        "s9e/bencode": "^1.1",
+        "nrk/bencoder": "^1.0",
+        "pure-bencode/pure-bencode": "^1.1",
+        "ppokatilo/bencode": "^1.0",
+        "akatsuki/bencode": "^1.0",
+        "orpheusnet/bencode-torrent": "^0.11.0"
+    },
+    "autoload": {
+        "files": [
+            "lib/NexusPHP/benc.php",
+            "lib/RidPT/Bencode.php"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}

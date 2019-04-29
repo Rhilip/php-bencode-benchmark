@@ -1,0 +1,468 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "08b36f600ca546fd4124f6585992f035",
+    "packages": [
+        {
+            "name": "akatsuki/bencode",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aurimasniekis/akatsuki-bencode.git",
+                "reference": "a29856c962226515a38f82694a6a8f9022292e1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aurimasniekis/akatsuki-bencode/zipball/a29856c962226515a38f82694a6a8f9022292e1f",
+                "reference": "a29856c962226515a38f82694a6a8f9022292e1f",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Akatsuki\\Component\\Bencode\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aurimas Niekis",
+                    "email": "aurimas@niekis.lt"
+                }
+            ],
+            "description": "Akatsuki Bencode Component",
+            "homepage": "https://akatsuki.io",
+            "keywords": [
+                "akatsuki",
+                "bencode"
+            ],
+            "time": "2017-05-12T12:46:17+00:00"
+        },
+        {
+            "name": "dsmithhayes/bencode",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dsmithhayes/bencode.git",
+                "reference": "6f5342975a9061137cc4e11136c384050ad12a62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dsmithhayes/bencode/zipball/6f5342975a9061137cc4e11136c384050ad12a62",
+                "reference": "6f5342975a9061137cc4e11136c384050ad12a62",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bencode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Smith-Hayes",
+                    "email": "dsmithhayes@gmail.com"
+                }
+            ],
+            "description": "A simple bencoding library for PHP.",
+            "homepage": "https://github.com/dsmithhayes/bencode",
+            "keywords": [
+                "bencode",
+                "torrent"
+            ],
+            "time": "2015-10-13T01:26:31+00:00"
+        },
+        {
+            "name": "nrk/bencoder",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/bencoder.git",
+                "reference": "b5389d3a35294f3d5024a5fe3d309a0fabb27aa5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/bencoder/zipball/b5389d3a35294f3d5024a5fe3d309a0fabb27aa5",
+                "reference": "b5389d3a35294f3d5024a5fe3d309a0fabb27aa5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bencoder": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "A Bencode serializer and deserializer in pure PHP",
+            "homepage": "http://github.com/nrk/bencoder",
+            "keywords": [
+                "bencode",
+                "deserialization",
+                "serialization"
+            ],
+            "time": "2011-12-24T17:02:03+00:00"
+        },
+        {
+            "name": "orpheusnet/bencode-torrent",
+            "version": "v0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OPSnet/bencode-torrent.git",
+                "reference": "911e2899f4682006545395aa4eb8fa1f30b29a15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OPSnet/bencode-torrent/zipball/911e2899f4682006545395aa4eb8fa1f30b29a15",
+                "reference": "911e2899f4682006545395aa4eb8fa1f30b29a15",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7"
+            },
+            "require-dev": {
+                "ext-mbstring": "^7",
+                "phpunit/phpunit": "^6|^7",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OrpheusNET\\BencodeTorrent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Orpheus",
+                    "email": "noreply@orpheus.network"
+                }
+            ],
+            "description": "PHP Library for decoding and encoding BitTorrent BEncoded data, built for Gazelle",
+            "time": "2018-11-10T16:44:14+00:00"
+        },
+        {
+            "name": "ppokatilo/bencode",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SHyx0rmZ/php-bencode.git",
+                "reference": "c07509a2252843d906c5c625228fca08590b4f4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SHyx0rmZ/php-bencode/zipball/c07509a2252843d906c5c625228fca08590b4f4a",
+                "reference": "c07509a2252843d906c5c625228fca08590b4f4a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SHyx0rmZ\\Bencode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Pokatilo",
+                    "email": "mail@shyxormz.net"
+                }
+            ],
+            "description": "Bencode library for PHP",
+            "homepage": "http://github.com/SHyx0rmZ/php-bencode",
+            "keywords": [
+                "bencode",
+                "serialize"
+            ],
+            "time": "2016-10-06T16:44:08+00:00"
+        },
+        {
+            "name": "pure-bencode/pure-bencode",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jesseschalken/pure-bencode.git",
+                "reference": "f423aabaa78d94f366f71e341ee57fc757c734e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jesseschalken/pure-bencode/zipball/f423aabaa78d94f366f71e341ee57fc757c734e4",
+                "reference": "f423aabaa78d94f366f71e341ee57fc757c734e4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesse Schalken",
+                    "email": "me@jesseschalken.com"
+                }
+            ],
+            "description": "A simple and complete bencode encoder/decoder",
+            "time": "2014-03-16T01:40:23+00:00"
+        },
+        {
+            "name": "rych/bencode",
+            "version": "v1.0.0",
+            "target-dir": "Rych/Bencode",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rchouinard/bencode.git",
+                "reference": "d1b5c88f3fd7ff1f4167756f0ed63f970a32431c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rchouinard/bencode/zipball/d1b5c88f3fd7ff1f4167756f0ed63f970a32431c",
+                "reference": "d1b5c88f3fd7ff1f4167756f0ed63f970a32431c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Rych\\Bencode": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Chouinard",
+                    "email": "rchouinard@gmail.com",
+                    "homepage": "http://ryanchouinard.com"
+                }
+            ],
+            "description": "Bencode serializer for PHP 5.3+",
+            "homepage": "https://github.com/rchouinard/bencode",
+            "keywords": [
+                "bencode",
+                "serialize"
+            ],
+            "time": "2014-01-13T00:34:03+00:00"
+        },
+        {
+            "name": "s9e/bencode",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/s9e/Bencode.git",
+                "reference": "ebd6067db03a6b0073fbcbfd4f5eea3e7c0aece4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/s9e/Bencode/zipball/ebd6067db03a6b0073fbcbfd4f5eea3e7c0aece4",
+                "reference": "ebd6067db03a6b0073fbcbfd4f5eea3e7c0aece4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "s9e\\Bencode\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Bencode decoder/encoder",
+            "homepage": "https://github.com/s9e/Bencode/",
+            "keywords": [
+                "bencode",
+                "bittorrent",
+                "torrent"
+            ],
+            "time": "2019-01-08T21:14:23+00:00"
+        },
+        {
+            "name": "sandfoxme/bencode",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sandfoxme/bencode.git",
+                "reference": "82195cf7519a1656e05fa21843e9653129d257ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sandfoxme/bencode/zipball/82195cf7519a1656e05fa21843e9653129d257ee",
+                "reference": "82195cf7519a1656e05fa21843e9653129d257ee",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0.0",
+                "psy/psysh": "^0.8.3"
+            },
+            "suggest": {
+                "php-64bit": "Running 64 bit is recommended to prevent integer overflow"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SandFox\\Bencode\\": "src"
+                },
+                "classmap": [
+                    "legacy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Smirnov",
+                    "email": "sandfox@sandfox.me"
+                }
+            ],
+            "description": "BitTorrent's Bencode encoder/decoder",
+            "keywords": [
+                "bencode",
+                "bittorrent",
+                "serialize",
+                "torrent"
+            ],
+            "time": "2019-02-14T06:47:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
