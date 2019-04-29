@@ -40,7 +40,7 @@ class Bencode
                     break;
                 }
                 if (!is_string($key)) {
-                    throw new ParseErrorException('Invalid key type, must be string: ' . gettype($key));
+                    throw new \RuntimeException('Invalid key type, must be string: ' . gettype($key));
                 }
                 $return[$key] = $value;
             }
@@ -59,7 +59,7 @@ class Bencode
             $digits = strpos($data, 'e', $pos) - $pos;
             $return = substr($data, $pos, $digits);
             if ($return === '-0') {
-                throw new ParseErrorException('Cannot have integer value -0');
+                throw new \RuntimeException('Cannot have integer value -0');
             }
             $multiplier = 1;
             if ($return[0] === '-') {
@@ -67,7 +67,7 @@ class Bencode
                 $return = substr($return, 1);
             }
             if (!ctype_digit($return)) {
-                throw new ParseErrorException('Cannot have non-digit values in integer number: ' . $return);
+                throw new \RuntimeException('Cannot have non-digit values in integer number: ' . $return);
             }
             $return = $multiplier * ((int)$return);
             $pos += $digits + 1;
@@ -80,7 +80,7 @@ class Bencode
         }
         if ($start_decode) {
             if ($pos !== strlen($data)) {
-                throw new ParseErrorException('Could not fully decode bencode string');
+                throw new \RuntimeException('Could not fully decode bencode string');
             }
         }
         return $return;

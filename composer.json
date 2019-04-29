@@ -9,6 +9,8 @@
         }
     ],
     "require": {
+        "php": ">7.0",
+        "ext-ctype": "*",
         "sandfoxme/bencode": "^1.3",
         "rych/bencode": "^1.0",
         "dsmithhayes/bencode": "^0.1.3",
