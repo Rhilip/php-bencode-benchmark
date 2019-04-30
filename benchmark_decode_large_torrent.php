@@ -12,7 +12,7 @@ set_time_limit(0);
 
 $FILE_LOC = './torrent/Touhou lossless music collection v.19.torrent';
 
-function test_nexusphp_benc($count = 10) {
+function test_nexusphp_benc($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -21,7 +21,7 @@ function test_nexusphp_benc($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_ridpt_bencode($count = 10) {
+function test_ridpt_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -30,7 +30,7 @@ function test_ridpt_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_sandfoxme_bencode($count = 10) {
+function test_sandfoxme_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -39,7 +39,7 @@ function test_sandfoxme_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_rych_bencode($count = 10) {
+function test_rych_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -48,7 +48,7 @@ function test_rych_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_dsmithhayes_bencode($count = 10) {
+function test_dsmithhayes_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -59,7 +59,7 @@ function test_dsmithhayes_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_s9e_bencode($count = 10) {
+function test_s9e_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -68,7 +68,7 @@ function test_s9e_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_nrk_bencoder($count = 10) {
+function test_nrk_bencoder($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -77,7 +77,7 @@ function test_nrk_bencoder($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_pure_bencode($count = 10) {
+function test_pure_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -86,7 +86,8 @@ function test_pure_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_ppokatilo_bencode($count = 10) {
+
+function test_ppokatilo_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -95,7 +96,7 @@ function test_ppokatilo_bencode($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_OPSnet_bencode_torrent($count = 10) {
+function test_OPSnet_bencode_torrent($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
@@ -104,7 +105,7 @@ function test_OPSnet_bencode_torrent($count = 10) {
     return number_format(microtime(true) - $time_start, 3);
 }
 
-function test_akatsuki_bencode($count = 10) {
+function test_akatsuki_bencode($count = 1) {
     global $FILE_LOC;
     $time_start = microtime(true);
     for ($i=0; $i < $count; $i++) {
